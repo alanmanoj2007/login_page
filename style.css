@@ -44,12 +44,14 @@ body {
     border-radius: 10px;
     border: none;
     outline: none;
-      transition:transform 0.2s ease;
+      transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
   }
   
   .button:hover {
     cursor: pointer;
-      transform:scale(1.1);
+  transform: scale(1.1);
+  background-color: #028A1F; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
   }
   
   #line {
