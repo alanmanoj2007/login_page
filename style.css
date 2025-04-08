@@ -44,10 +44,10 @@ body {
     border-radius: 10px;
     border: none;
     outline: none;
+      transition:transform 0.2s ease;
   }
   
   .button:hover {
-    background-color: #019a1f;
     cursor: pointer;
       transform:scale(1.1);
   }
